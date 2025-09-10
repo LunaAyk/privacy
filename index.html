@@ -1,9 +1,122 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <title>页面标题</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K宠未央隐私协议</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #a5f3fc 0%, #0ea5e9 100%);
+        }
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.02);
+        }
+        .section-divider {
+            border-bottom: 2px dashed #cbd5e1;
+            padding-bottom: 1rem;
+            margin-bottom: 1.5rem;
+        }
+    </style>
 </head>
-<body>
-  <p>这是一个段落。</p>
+<body class="bg-gray-50 font-sans">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <!-- 标题区 -->
+        <header class="gradient-bg rounded-xl p-6 mb-8 shadow-lg hover-scale">
+            <h1 class="text-3xl font-bold text-white text-center">K宠未央隐私保护声明</h1>
+            <p class="text-white text-center mt-2 opacity-90">生效日期：2025年09月10日</p>
+        </header>
+
+        <!-- 内容区 -->
+        <main class="bg-white rounded-xl shadow-md p-6">
+            <!-- 概述 -->
+            <section class="mb-8 section-divider">
+                <h2 class="text-xl font-semibold text-sky-600 mb-4">一、隐私声明概述</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    本应用（以下简称"K宠未央"）为宠物管理工具类APP，严格遵循《个人信息保护法》要求。特别声明：
+                </p>
+                <ul class="list-disc pl-6 mt-2 space-y-1 text-gray-700">
+                    <li>不提供用户登录功能</li>
+                    <li>不收集任何个人身份信息</li>
+                    <li>不存储设备唯一标识符</li>
+                </ul>
+            </section>
+
+            <!-- 数据收集 -->
+            <section class="mb-8 section-divider">
+                <h2 class="text-xl font-semibold text-sky-600 mb-4">二、数据收集说明</h2>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full bg-gray-50 rounded-lg overflow-hidden">
+                        <thead class="bg-sky-100">
+                            <tr>
+                                <th class="px-4 py-2 text-left">数据类型</th>
+                                <th class="px-4 py-2 text-left">收集方式</th>
+                                <th class="px-4 py-2 text-left">用途</th>
+                                <th class="px-4 py-2 text-left">存储周期</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="hover:bg-gray-100">
+                                <td class="border px-4 py-2">零数据</td>
+                                <td class="border px-4 py-2">无</td>
+                                <td class="border px-4 py-2">无</td>
+                                <td class="border px-4 py-2">无</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 第三方服务 -->
+            <section class="mb-8 section-divider">
+                <h2 class="text-xl font-semibold text-sky-600 mb-4">三、第三方服务</h2>
+                <p class="text-gray-700 mb-2">本应用可能包含以下非隐私相关服务：</p>
+                <ul class="list-disc pl-6 space-y-1 text-gray-700">
+                    <li>宠物健康数据统计（本地计算）</li>
+                    <li>社区内容浏览（不关联用户身份）</li>
+                </ul>
+            </section>
+
+            <!-- 用户权利 -->
+            <section class="mb-8 section-divider">
+                <h2 class="text-xl font-semibold text-sky-600 mb-4">四、用户权利</h2>
+                <p class="text-gray-700">
+                    由于不收集个人信息，用户无需行使：
+                </p>
+                <div class="flex flex-wrap gap-4 mt-3">
+                    <span class="px-3 py-1 bg-gray-100 rounded-full text-gray-700">信息删除权</span>
+                    <span class="px-3 py-1 bg-gray-100 rounded-full text-gray-700">信息更正权</span>
+                    <span class="px-3 py-1 bg-gray-100 rounded-full text-gray-700">数据携带权</span>
+                </div>
+            </section>
+
+            <!-- 未成年人保护 -->
+            <section class="mb-8 section-divider">
+                <h2 class="text-xl font-semibold text-sky-600 mb-4">五、未成年人保护</h2>
+                <p class="text-gray-700">
+                    本应用不含社交功能，未成年人可安全使用。
+                </p>
+            </section>
+
+            <!-- 协议更新 -->
+            <section>
+                <h2 class="text-xl font-semibold text-sky-600 mb-4">六、协议更新</h2>
+                <p class="text-gray-700">
+                    本声明最后修订日期：2025年09月10日
+                </p>
+            </section>
+        </main>
+
+        <!-- 页脚 -->
+        <footer class="mt-8 text-center text-gray-500 text-sm">
+            <p>© 2025 萌宠管家 版权所有</p>
+            <p class="mt-1">如有疑问请联系：support@petscare.example.com</p>
+        </footer>
+    </div>
 </body>
 </html>
+
